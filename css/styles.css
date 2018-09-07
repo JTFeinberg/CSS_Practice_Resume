@@ -1,3 +1,49 @@
+/* Color Palatte
+#94E8B4 - Light Green
+#72BDA3 - Blue Green
+#5E8C61 - Green
+#4E6151 - Grey Green
+#3B322C - Brown Green
+--------------------------------*/
+
+
+/* Global Styles
+--------------------------------*/
 body {
-    background: blue;
+
+}
+a {
+    color: #94E8B4;
+}
+a:hover {
+    text-decoration: none; 
+}
+
+
+
+/* Header and Footer
+--------------------------------*/
+header, footer {
+    background: #3B322C;
+    color: #5E8C61;
+}
+header h1, header h2 {
+    color: #94E8B4;
+}
+
+
+
+/* Work Experience
+--------------------------------*/
+.work {
+    background: #94E8B4;
+}
+
+
+
+
+/* Education
+--------------------------------*/
+.education {
+    background: #72BDA3;
 }

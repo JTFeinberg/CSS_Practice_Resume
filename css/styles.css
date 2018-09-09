@@ -1,9 +1,17 @@
 /* Color Palatte
+ugly pallete
 #94E8B4 - Light Green
 #72BDA3 - Blue Green
 #5E8C61 - Green
 #4E6151 - Grey Green
 #3B322C - Brown Green
+madisons pallette
+#F6F7EB - Cream
+#E94F37 - redOrange
+#393E41 - light black
+#3F88C5 - blue
+#44BBA4 - green with hint of blue
+
 font-family: 'Open Sans', sans-serif;
 font-family: 'Caveat', cursive;
 --------------------------------*/
@@ -33,7 +41,7 @@ h2 {
     margin-top: 0;
 }
 a {
-    color: #94E8B4;
+    color: #393E41;
 }
 a:hover {
     text-decoration: none; 
@@ -62,15 +70,15 @@ a:hover {
 /* Header and Footer
 --------------------------------*/
 header, footer {
-    background: #3B322C;
-    color: #5E8C61;
+    background: #E94F37;
+    color: #F6F7EB;
 }
 /* header */
 .profile-img {
     border-radius: 50%;
 }
 header h1, header h2 {
-    color: #94E8B4;
+    color: #393E41;
     margin: 0;
 }
 .content-wrap p {
@@ -95,7 +103,7 @@ footer p {
 /* Work Experience
 --------------------------------*/
 .work {
-    background: #94E8B4;
+    background: #44BBA4;
 }
 
 
@@ -104,5 +112,5 @@ footer p {
 /* Education
 --------------------------------*/
 .education {
-    background: #72BDA3;
+    background: #3F88C5;
 }

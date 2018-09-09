@@ -40,6 +40,9 @@ h2 {
     font-size: 40px;
     margin-top: 0;
 }
+h3 {
+    margin: 0;
+}
 a {
     color: #393E41;
 }
@@ -62,6 +65,9 @@ a:hover {
     float: left;
     padding-left: 20px;
     min-height: 175px;
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
 
@@ -105,7 +111,12 @@ footer p {
 .work {
     background: #44BBA4;
 }
-
+h3 ~ p {
+    margin: 0;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
 
 
 

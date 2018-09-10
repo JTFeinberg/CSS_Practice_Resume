@@ -67,7 +67,16 @@ a:hover {
 .uppercase {
     text-transform: uppercase;
 }
-
+.btn {
+    text-decoration: none;
+    background: #3F88C5;
+    color: #F6F7EB;
+    padding: 10px;
+    display: inline-block;
+    border-right: 2px solid #393E41;
+    border-bottom: 2px solid #393E41;
+    border-radius: 5px;
+}
 
 
 
@@ -80,6 +89,7 @@ header, footer {
 /* header */
 header {
   padding-top: 50px;  
+  position: relative;
 }
 .profile-img {
     border-radius: 50%;
@@ -91,6 +101,7 @@ header h1, header h2 {
 .content-wrap p {
     margin: 0;
 }
+
 
 /* footer */
 footer {
@@ -121,7 +132,20 @@ nav a {
     text-transform: uppercase;
     font-weight: 700;
 }
-
+.download {
+    position: absolute;
+    right: 1%;
+    top: 5px;
+}
+.download:hover {
+   color: #393E41;
+   border-right: 0;
+   border-bottom: 0;
+}
+.download:active {
+    color: #F6F7EB;
+    background: #393E41;
+}
 
 
 /* Work Experience

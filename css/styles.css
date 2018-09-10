@@ -52,7 +52,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: auto;
 }
 .col-narrow {
@@ -78,6 +78,9 @@ header, footer {
     color: #F6F7EB;
 }
 /* header */
+header {
+  padding-top: 50px;  
+}
 .profile-img {
     border-radius: 50%;
 }
@@ -100,6 +103,23 @@ footer {
 footer p {
     margin-bottom: 0;
     padding-bottom: 10px;
+}
+
+/* Navigation
+--------------------------------*/
+nav {
+    text-align: center;
+    background: #F6F7EB;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 

@@ -67,7 +67,13 @@ a:hover {
 .uppercase {
     text-transform: uppercase;
 }
-
+.btn {
+    text-decoration: none;
+    background: #3F88C5;
+    color: #F6F7EB;
+    padding: 10px;
+    display: inline-block;
+}
 
 
 
